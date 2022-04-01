@@ -10,6 +10,9 @@ body{
     height: 100vh;
     overflow: hidden;
     background: url(./img/1648732079898.jpg);
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-attachment: fixed !important;
 }
 
 #bac{
@@ -21,6 +24,9 @@ body{
     width: 100vw;
     transition: 0.5s;
     background: url(./img/1648732059529.jpg);
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-attachment: fixed !important;
 }
 
 #yinyan{
