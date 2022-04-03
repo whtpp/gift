@@ -2,7 +2,8 @@
  * 打字效果 byaei
  */
 function typewrite() {
-  let str = "<当代码不止是代码的时候，它就有了新的意义>"; //利用<作为换行符 -作为空格
+  let str =
+    "<当代码不止是代码的时候，它就有了新的意义<愿你以后的每一天，无论谁在，谁不在<永远开心<永远充满希望<";
   let strp = "";
   let i = 0;
   function print1() {
@@ -112,7 +113,11 @@ let a = [
     yin: 8,
     str: "<br>生号白茸向春开<br><br>辰角高霭紫气来<br><br>吉谶同语一杯酒<br><br>乐成共饮为勉怀",
   },
-  { name: "B", yin: 2, str: `<br><br><br>若逢新雪初霁，满月当空` },
+  {
+    name: "B",
+    yin: 2,
+    str: `<br><br>在我看来<br><br>脾气不好<br><br>顶多算性格特点<br><br>不算缺点`,
+  },
   { name: "C", yin: 3, str: "<br><br><br><br>未来不足惧，过往不须泣" },
   { name: "D", yin: 4, str: "<br><br><br><br>自我救赎，是一种信仰" },
   {
@@ -132,7 +137,7 @@ let a = [
   },
   {
     name: "H",
-    yin: 5,
+    yin: 11,
     str: "<br><br>语气不要自视过高<br><br>即使没有站在所有人的制高点上<br><br>也可能不经意间<br><br>站在了对方的制高点上",
   },
   {
@@ -147,16 +152,16 @@ let a = [
   },
   {
     name: "K",
-    yin: 11,
+    yin: 5,
     str: "<br><br>所有情感的单位都应该以年计才对<br><br>可还是有那么多人<br><br>为了一天两天的火花失望伤心",
   },
   {
     name: "L",
-    yin: 8,
+    yin: 3,
     str: "<br><br><br><br>生活本就波澜不惊<br><br>要学会自己创造快乐",
   },
   { name: "M", yin: 13, str: "<br><br><br><br>愿君平生路,一蓑烟雨度" },
-  { name: "N", yin: 3, str: "<br><br><br><br>自我控制<br><br>是一种本能" },
+  { name: "N", yin: 8, str: "<br><br><br><br>自我控制<br><br>是一种本能" },
   {
     name: "O",
     yin: 7,
@@ -174,10 +179,10 @@ let a = [
   },
   {
     name: "R",
-    yin: 18,
+    yin: 2,
     str: "<br><br>即使信仰与当下多数观念背道而驰<br><br>只要自己认为是对的<br><br>那就决意前行<br><br>永不后悔",
   },
-  { name: "S", yin: 19, str: "<br><br>任何时候都应该有彻底改变自己的勇气" },
+  { name: "S", yin: 3, str: "<br><br>任何时候都应该有彻底改变自己的勇气" },
   { name: "T", yin: 20, str: "<br><br>不随便开始<br><br>不随意妥协" },
   {
     name: "U",
@@ -191,7 +196,7 @@ let a = [
   },
   {
     name: "W",
-    yin: 3,
+    yin: 19,
     str: "<br><br><br><br>给时光以生命<br><br>给岁月以文明",
   },
   {
@@ -201,7 +206,7 @@ let a = [
   },
   {
     name: "Y",
-    yin: 25,
+    yin: 8,
     str: "<br><br>大学生最不怕的就是emo<br><br>怕是怕这些苦没来由",
   },
   { name: "Z", yin: 26, str: "<br><br><br>人类进化的时候你躲起来了嘛？" },
@@ -233,32 +238,6 @@ let b = [
   "url(./img/null13756b1060c5a917.jpg)",
   "url(./img/null-495067e2b97d418f.jpg)",
   "url(./img/null15ec55d42accd2e7.jpg)",
-  //   "linear-gradient(25deg, #c3786f, #a99188, #84a7a1, #3bbcbb)",
-  //   "linear-gradient(25deg, #cb5860, #b3876f, #90ad7f, #4acf8f)",
-  //   "linear-gradient(25deg, #e473a3, #d294aa, #bbb0b1, #9ccab8)",
-  //   "linear-gradient(25deg, #452089, #505ca1, #4b94b8, #24cdcf)",
-  //   "linear-gradient(25deg, #04245a, #652959, #a62557, #e60b55)",
-  //   "linear-gradient(25deg, #88a0ff, #b6bedd, #d6deb9, #eeff91)",
-  //   "linear-gradient(25deg, #3e1c59, #53646f, #53ad83, #27fb95)",
-  //   "linear-gradient(25deg, #590146, #634264, #647184, #56a1a5)",
-  //   "linear-gradient(25deg, #694afc, #a26dfd, #d091fe, #f9b7fe)",
-  //   "linear-gradient(25deg, #412285, #4c599c, #488eb3, #29c4c9)",
-  //   "linear-gradient(25deg, #003876, #1f6889, #239b9a, #00d1ab)",
-  //   "linear-gradient(25deg, #db6679, #b9907b, #8bb17e, #29ce80)",
-  //   "linear-gradient(25deg, #060d37, #174161, #1d7a8d, #12b8bc)",
-  //   "linear-gradient(25deg, #fcb9b5, #fed0ad, #ffe7a5, #fffd9b)",
-  //   "linear-gradient(25deg, #0f4660, #6b486c, #ac3f78, #ec1384)",
-  //   "linear-gradient(25deg, #094189, #7f566b, #bd6d49, #f78707)",
-  //   "linear-gradient(43deg, #00a08c, #7db19d, #c1c0af, #ffcec1)",
-  //   "linear-gradient(35deg, #526fbf, #8c98d0, #bfc3e0, #f0f0f0)",
-  //   "linear-gradient(25deg, #d03e9b, #d2788a, #cfa676, #c6d05c)",
-  //   "linear-gradient(25deg, #8fd647, #a0d187, #a8ccbf, #a8c7f7)",
-  //   "linear-gradient(25deg, #e45579, #c59280, #96bf87, #19e88e)",
-  //   "linear-gradient(25deg, #d575db, #b29db2, #83bb87, #00d456)",
-  //   "linear-gradient(25deg, #d929f7, #e67cc5, #e5b38f, #d8e549)",
-  //   "linear-gradient(25deg, #fd390b, #e1765b, #b19fa1, #1ec1e9)",
-  //   "linear-gradient(25deg, #7b7bd4, #759cbc, #62bca2, #30db85)",
-  //   "linear-gradient(25deg, #d6007b, #b8509e, #8a71c2, #0b8be8)",
 ];
 let s = "a";
 let records = 0; //记录我已经输入过了，防止出现多个打字function byaei
@@ -292,7 +271,7 @@ function fl(e) {
         boxup.style.opacity = 1;
         bac.style.opacity = 1;
       }, 500);
-      if (s.indexOf("XIAOLUXIAOLUWXHN") != -1 && records == 0) {
+      if (s.indexOf("XIAOYUXIAOYUSRKL") != -1 && records == 0) {
         setTimeout(function () {
           records = 1;
           bac.style.opacity = 0;
@@ -303,7 +282,7 @@ function fl(e) {
           box1.style.zIndex = 7;
           box1.style.opacity = 1;
           let music = document.createElement("audio");
-          x.setAttribute("src", `./video/snjxh.mp3`);
+          x.setAttribute("src", `./video/u make me wanna.aac`);
           x.setAttribute("autoplay", "autoplay");
           x.setAttribute("loop", "loop");
         }, 750);
